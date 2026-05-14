@@ -48,9 +48,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE      &kp Q         &kp W            &kp E            &kp R              &kp T               &kp Y             &kp U               &kp I             &kp O             &kp P            &kp BSPC
-&kp CAPSLOCK    &HML LCTRL A  &HML LEFT_ALT S  &HML LEFT_GUI D  &HML LEFT_SHIFT F  &HML BACKSPACE G    &HMR BACKSPACE H  &HMR RIGHT_SHIFT J  &HMR RIGHT_GUI K  &HMR RIGHT_ALT L  &HMR RCTRL SEMI  &kp SQT
-&HML TAB GRAVE  &kp Z         &kp X            &kp C            &kp V              &kp B               &kp N             &kp M               &kp COMMA         &kp DOT           &kp FSLH         &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT
+&kp ESCAPE      &kp Q         &kp W            &kp E            &kp R              &kp T               &kp Y             &kp U               &kp I            &kp O             &kp P            &kp BSPC
+&kp CAPSLOCK    &HML LCTRL A  &HML LEFT_ALT S  &HML LEFT_GUI D  &HML LEFT_SHIFT F  &HML BACKSPACE G    &HMR BACKSPACE H  &HMR RIGHT_SHIFT J  &HMR LEFT_GUI K  &HMR RIGHT_ALT L  &HMR RCTRL SEMI  &kp SQT
+&HML TAB GRAVE  &kp Z         &kp X            &kp C            &kp V              &kp B               &kp N             &kp M               &kp COMMA        &kp DOT           &kp FSLH         &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT
                                                &tog 1           &mo 1              &kp SPACE           &kp RET           &mo 2               &tog 2
             >;
         };
