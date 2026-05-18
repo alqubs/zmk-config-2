@@ -48,9 +48,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE      &kp Q         &kp W            &kp E            &kp R              &kp T               &kp Y             &kp U               &kp I             &kp O             &kp P            &kp BSPC
+&kp ESCAPE      &kp Q         &kp W            &kp E            &kp R              &kp T               &kp Y             &kp U               &kp I             &kp O             &kp P            &kp C_AL_LOCK
 &kp CAPSLOCK    &HML LCTRL A  &HML LEFT_ALT S  &HML LEFT_GUI D  &HML LEFT_SHIFT F  &HML BACKSPACE G    &HMR BACKSPACE H  &HMR RIGHT_SHIFT J  &HMR RIGHT_GUI K  &HMR RIGHT_ALT L  &HMR RCTRL SEMI  &kp SQT
-&HML TAB GRAVE  &kp Z         &kp X            &kp C            &kp V              &kp B               &kp N             &kp M               &kp COMMA         &kp DOT           &kp FSLH         &kp F5
+&HML TAB GRAVE  &kp Z         &kp X            &kp C            &kp V              &kp B               &kp N             &kp M               &kp COMMA         &kp DOT           &kp FSLH         &kp C_KEYBOARD_INPUT_ASSIST_NEXT
                                                &tog 1           &mo 1              &kp SPACE           &kp RET           &mo 2               &tog 2
             >;
         };
@@ -63,10 +63,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans       &trans    &trans        &trans    &trans     &trans  &trans
-&trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans       &kp LEFT  &kp UP_ARROW  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &kp N0  &kp N7        &kp N8        &kp N9        &kp N0       &trans    &trans        &trans    &trans     &trans  &trans
-                              &tog 0        &trans        &kp SPACE    &kp RET   &trans        &trans
+&trans  &trans  &HML EXCLAMATION KP_N2  &HML AT KP_N2        &HML HASH KP_N3              &trans                          &trans   &trans          &kp UP_ARROW    &trans           &trans  &trans
+&trans  &trans  &HML DOLLAR KP_N4       &HML PERCENT KP_N5   &HML CARET KP_N6             &trans                          &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans  &HML KP_N7 AMPERSAND    &HML KP_N8 ASTERISK  &HML KP_N9 LEFT_PARENTHESIS  &HML KP_N0 RIGHT_PARENTHESIS    &trans   &trans          &trans          &trans           &trans  &trans
+                                        &tog 0               &trans                       &kp SPACE                       &kp RET  &trans          &trans
             >;
         };
 
